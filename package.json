@@ -1,0 +1,16 @@
+{
+  "name": "second-brain-app",
+  "version": "1.0.0",
+  "author": "prasansha06",
+  "private": true,
+  "description": "Full-stack Second Brain (Brainly) knowledge management hub built with TypeScript, React, Tailwind CSS, Express, and MongoDB.",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm run build:backend && npm run build:frontend",
+    "start": "npm --prefix backend run start",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev"
+  }
+}

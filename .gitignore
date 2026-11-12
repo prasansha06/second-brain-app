@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Builds & Outputs
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Logs & Environment
+*.log
+.env
+.env.local
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
